@@ -1,0 +1,14 @@
+( ) i e + - * / f { } > < = !
+E T K F A Q M R B X U
+E->f(B){E}R|TK
+R->e{E}K|K
+B->UXU
+X-><|>|!
+U->TK
+K->ATK|@
+T->FQ
+Q->MFQ|@
+F->(E)|i
+A->+|-|=
+M->*|/
+end

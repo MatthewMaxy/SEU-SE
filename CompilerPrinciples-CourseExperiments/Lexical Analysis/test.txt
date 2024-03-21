@@ -1,0 +1,16 @@
+
+int compiler(int n){
+	long long mxy=71121117;
+	for (int i=1;i<=n;++i)
+		mxy/=i;
+	return mxy;
+}
+int main()
+{
+	int a=3,m=5;//define a,m
+	double e=1;
+	for(int i=1;i<=m-1;++i)   e+=double(1)/compiler(i);
+	111a;
+	a = 11;
+}
+

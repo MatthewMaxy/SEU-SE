@@ -1,0 +1,10 @@
+( ) + - * / i
+E M Q A W T F
+E->TW
+W->ATW|@
+T->FQ
+Q->MFQ|@
+F->(E)|i
+A->+|-
+M->*|/
+end

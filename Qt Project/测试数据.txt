@@ -1,0 +1,11 @@
+3
+book1 qwe123 2010 2 14 pub1 David 0 4
+1 out 2000 1 1 2233
+2 out 2022 8 13 21321
+3 in 0 0 0 *****
+4 in 0 0 0 *****
+book2 asd123 2022 3 31 pub2 writer2 1 1
+5 in 0 0 0 *****
+book3 zxc123 2023 12 3 pub3 Mike 2 2
+6 in 0 0 0 *****
+7 in 0 0 0 *****

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>图书馆管理系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="bookTable">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>441</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="open"/>
+    <addaction name="save"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>书籍管理</string>
+    </property>
+    <addaction name="actionadd"/>
+    <addaction name="actiondelete"/>
+    <addaction name="showBook"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>登记号管理</string>
+    </property>
+    <addaction name="addReg"/>
+    <addaction name="delReg"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <widget class="QMenu" name="menu_5">
+     <property name="title">
+      <string>查询...</string>
+     </property>
+     <addaction name="actionname"/>
+     <addaction name="actionnum"/>
+    </widget>
+    <addaction name="menu_5"/>
+    <addaction name="borrowB"/>
+    <addaction name="returnB"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionadd">
+   <property name="text">
+    <string>添加书籍...</string>
+   </property>
+  </action>
+  <action name="actiondelete">
+   <property name="text">
+    <string>删除书籍...</string>
+   </property>
+  </action>
+  <action name="addReg">
+   <property name="text">
+    <string>添加登记信息...</string>
+   </property>
+  </action>
+  <action name="delReg">
+   <property name="text">
+    <string>删除登记信息...</string>
+   </property>
+  </action>
+  <action name="borrowB">
+   <property name="text">
+    <string>借书...</string>
+   </property>
+  </action>
+  <action name="returnB">
+   <property name="text">
+    <string>还书...</string>
+   </property>
+  </action>
+  <action name="open">
+   <property name="text">
+    <string>导入文件...</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>另存文件...</string>
+   </property>
+  </action>
+  <action name="showBook">
+   <property name="text">
+    <string>显示书籍</string>
+   </property>
+  </action>
+  <action name="actionname">
+   <property name="text">
+    <string>书名</string>
+   </property>
+  </action>
+  <action name="actionnum">
+   <property name="text">
+    <string>登记号</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
